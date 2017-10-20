@@ -11,7 +11,7 @@ setuptools.setup(
     use_scm_version=True,
     description='Adapt Odoo to discovers installed addons automatically',
     long_description='\n'.join((
-        open('README.rst', encoding="latin-1").read(),
+        open('README.rst').read(),
         open('CHANGES.rst').read(),
     )),
     classifiers=[
