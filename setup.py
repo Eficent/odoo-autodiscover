@@ -11,10 +11,6 @@ setuptools.setup(
     name='odoo-autodiscover',
     use_scm_version=True,
     description='Adapt Odoo to discovers installed addons automatically',
-    long_description='\n'.join((
-        open('README.rst').read(),
-        open('CHANGES.rst').read(),
-    )),
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Framework :: Odoo',
